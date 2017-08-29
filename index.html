@@ -1,0 +1,1024 @@
+<html><head>
+ 
+<title>JULIE's home</title>
+ 
+
+<style type="text/css">
+*{margin:0;padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+input{border:none;}
+body h2{
+	padding-top:40px;
+	font-size:36px;
+	line-height:118px;
+	text-align:center;
+	font-weight:normal;}
+#nav{
+	width:100%;
+	position:fixed;
+	z-index:999;
+	}
+#nav ul{
+	height:60px;
+	background:rgba(0,0,0,0.8);
+	padding-left:60%;
+	}
+#nav ul li{
+	height:60px;
+	float:left;
+	padding:0 20px;
+	font-family:"微软雅黑 Light";
+	font-size:16px;
+	line-height:60px;
+	text-align:center;
+	letter-spacing:6px;
+	}
+#nav ul li a{color:#fff;text-decoration:none;text-align:center;}
+/*#nav ul li:hover{border-bottom:2px solid #d38734;height:58px;}*/
+#nav ul li.active a{color:#d38724}
+#index{
+	height:1000px;
+	background:#080808 url(images/index-bg.jpg) no-repeat left  bottom;
+	background-size: 50% auto;
+	background-attachment:fixed;}
+#index h1{
+	font-family:arial;
+	font-size:60px;
+	color:#fff;
+	text-align:center;
+	line-height:78px;
+	padding-top:350px;
+	letter-spacing:20px;}
+#index p{
+	font-family:"华文楷体 Regular";
+	font-size:38px;
+	color:#fff;
+	text-align:center;
+	line-height:122px;
+	letter-spacing:15px;
+	}
+#index a{
+	border:1px solid #fff;
+	display:block;
+	width:290px;
+	height:80px;
+	background:rgba(0,0,0,0) no-repeat center;
+	margin:0 auto;
+	font-family:"微软雅黑 Light";
+	font-size:24px;
+	color:#d38724;
+	line-height:80px;
+	text-align:center;
+	letter-spacing:18px;}
+#about-design{
+	height:816px;
+	}
+.about-design-inner{
+	width:1200px;
+	margin:0 auto;
+	}
+.about-design-title{
+	height:240px;
+	background:url(images/BIAOTI_03.jpg) no-repeat center 40px;}
+.about-design-icons{
+	width:1030px;
+	margin:0 auto;
+	padding:0 85px 76px;
+	}
+.about-design-icons ul{
+	height:124px;
+	}
+.about-design-icons ul li a{
+	display:block;
+	float:left;
+	width:120px;
+	height:87px;
+	padding:86px 0 0;
+	line-height:38px;
+	text-align:center;
+	color:#000;
+	}
+.brand,.pingmian,.web{
+	margin-right:183px;
+	}
+.app{margin-right:0;}
+.brand{
+	background:url(images/design-icons_07.jpg) no-repeat    center top;}
+.pingmian{
+	background:url(images/design-icons_09.jpg) no-repeat  center top;}
+.web{
+	background:url(images/design-icons_11.jpg) no-repeat center top;}
+.app{
+	background:url(images/design-icons_13.jpg) no-repeat center top;}
+#about-design p{
+	text-align: center;
+	line-height: 50px;
+	font-family: "宋体";
+	font-size: 18px;
+	color: #262626;
+	font-weight: lighter;
+	letter-spacing:8px;
+}
+.about-design-text>p{
+	display:none;
+	}
+.about-design-text #table1{
+	display:block;
+	}
+#heisedai{
+	background:#080808 url(images/heisedai_20.jpg) no-repeat 14% top;
+	}
+.heisedai-inner{
+	width:1200px;
+	height:266px;
+	margin:0 auto;
+	position:relative;
+	}
+.computer{
+	position:absolute;
+	right:0;
+	bottom:0;
+	}
+.ziti{
+	position:absolute;
+	left:250px;
+	top:87px;
+	}
+.heisedai-contact{
+	position:absolute;
+	left:300px;
+	top:170px;
+	}
+#about-me{
+	height:1496px;
+	width:1200px;
+	margin:0 auto;
+	}	
+.about-me-title{
+	height:272px;
+	background:url(images/BIAOTI_07.jpg) no-repeat center 40px;
+	}	
+.skills{}
+.border{
+	width:960px;
+	height:160px;
+	margin-left:133px;
+	position:relative;
+	margin-bottom:100px;
+	border:1px solid transparent;
+	}
+.border:hover{border:1px solid #f09928;}
+.skills p{
+	width:280px;
+	background-color:#fff;
+	font-family:"宋体";
+	font-size:18px;
+	line-height:40px;
+	position:absolute;
+	left:40px;
+	top:-20px;
+	padding-left:36px;
+	}
+.skills ul{
+	padding:40px 0 0 33px;
+	}
+.skills ul li{
+	float:left;
+	margin-right:89px;
+	}
+#about-me ul .last-icon{
+	margin-right:0;
+	}
+.life{
+	position:relative;
+	}	
+.life>p{
+	font-family:"宋体";
+	font-size:18px;
+	line-height:40px;
+	padding-left:180px;
+	margin-bottom:10px;
+	}
+.life ul{
+	height:508px;
+	padding:70px 0 0;
+	}
+.life ul .sports,.reading,.creative{
+	float:left;
+	height:432px;
+	width:350px;
+	margin-left:25px;
+	margin-right:20px;
+	position:relative;
+/*	left: 50%;
+	margin-left: -185px;*/
+	}
+#ul_li img{
+	margin-left: 25px;
+}
+.all_p{
+	width: 350px;
+	height: 432px;
+}
+.all_li{	
+	height: 432px;
+}
+.all_li:nth-of-type(1){
+	background:url(images/life-sports_60.gif) no-repeat center center;
+	background-size:66%;
+}
+.all_li:nth-of-type(2){
+	background:url(images/reading66.jpg) no-repeat center center;
+}
+.all_li:nth-of-type(3){
+	background:url(images/chuangyi2.jpg) no-repeat 60px center;
+	background-size:60%;
+}
+.all_p p{
+	/*text-align: center;*/
+	margin-top: 20px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-weight: 800;
+	/*z-index: 1;*/
+	z-index: 10;
+	color: #123;
+}
+/*.life ul .sports{
+	margin-left: 0px;
+}*/
+/*.one_img{
+	margin: 10px;
+}*/#ul_li li .all_p{
+	transition: all 0.5s linear;
+}
+#ul_li li .all_p:hover{
+	/*background: #fff url(images/life-mask_60.jpg) no-repeat;*/
+	/*opacity: 0.8;*/
+	/*background: */
+	background: orange;
+	/*border: 3px solid #ccc;*/
+	/*transition: all 0.5s linear;*/
+}
+
+.one_img{
+	z-index: -2;
+}
+.ccc{
+	position: absolute;
+	/*z-index: -1;*/
+}
+.life ul>li>img{text-align:center;}
+#about-me .creative{
+	margin-right:0;
+	position:relative;
+	}
+.life ul li>p{
+	/*position: absolute;*/
+	text-align: center;
+	margin-bottom:70px;
+	height:40px;
+	width:350px;
+	/*margin:0 20px;*/
+	background:rgba(0,0,0,0.8);
+	color:#fff;
+	font-family:arial;
+	font-size:22px;
+	text-align:center;
+	line-height:40px;
+	}	
+.sports-mask,.reading-mask{
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;}
+.sports:hover .sports-mask{display:block;}
+.reading:hover .reading-mask{display:block;}
+.creative-mask{
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+	}
+.creative:hover .creative-mask{display:block;}	
+#about-me>p{
+	font-size:18px;
+	font-family:"宋体";
+	line-height:50px;
+	text-align:center;
+	padding:40px 135px 80px;}
+	
+	
+	
+	
+	
+	
+	
+.works-title{
+	background:url(images/BIAOTI_11.jpg) no-repeat center 40px;
+	margin-bottom:62px;
+	}	
+.box{
+	width:1200px;
+	height:546px;
+	background-color:#2a2e2d;
+	position:relative;
+	margin:0 auto;}	
+.small-nav ul{
+	height:40px;
+	padding-left:400px;
+	}
+.box ul li{
+	float:left;
+	margin-right:50px;
+	font-family:"微软雅黑light";
+	font-size:18px;
+	line-height:50px;
+	text-align:center;
+	}
+.box ul li a{
+	color:#fff;
+	display:block;
+	width:78px;
+	height:50px;
+	}
+.active{
+	border-bottom:4px solid #e9875c;
+	}	
+
+.ss{
+		width:1198x;
+		height:210px;
+		margin:140px auto;
+		border:#000 1px solid;
+		overflow:hidden;
+		position:relative;
+	}
+.layer{ width:100%; height:5000px; position:fixed; left:0; top:0; background:rgba(0,0,0,0.8); display:none;z-index:999999}
+.zgf{ width:1200px;margin:0 auto; position:relative; /*animation:first .5s linear 1;*/text-align:center;}
+/*@keyframes first{
+	0%{ transform:rotate(0deg) scale(0);}
+	50%{ transform:rotate(360deg) scale(0.5);}
+	100%{ transform:rotate(720deg) scale(1);}	
+}*/
+.big-img{ width:auto;height:auto;}
+.bt{ position:absolute; width:30px; height:60px; background:rgba(51,51,51,0.5); color:#999;
+	 line-height:60px; text-align:center; font-size:30px; z-index:90; cursor:pointer;}
+.close{ position:absolute; color:#999; font-size:16px; width:40px; font-size:40px; line-height:40px; 
+		text-align:center; cursor:pointer; right:50px; top:20px;}
+.close:hover{ color:#FFF;}
+.bt:hover{ color:#FFF; background:#999;}
+#sss,#ssss,#sssss{height:400px;margin:80px auto;display:none;width:1198px;}
+#mmmm img,#mmm img{height:400px;}
+#mmmmm img{width:240px;}
+.menu{
+	width:1000%;
+	heigh:200px;
+	position:absolute;
+	left:0px;
+	top:0px;	
+}
+.gd1{
+	height:200px;
+	float:left;	
+}
+.menu img{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-right:20px;
+	float:left;
+}
+.yuandian{
+	padding:480px 572px 40px;
+	width:71px;
+	height:17px;
+	background:url(images/works-yuandian-1_68.jpg) no-repeat center 480px;
+	}	
+#heisedai2{
+	margin-top:100px;
+	background:#080808 url(images/heisedai2-gaiyin_72.jpg) no-repeat 14% bottom;
+	}
+.heisedai2-inner{
+	width:1200px;
+	height:266px;
+	margin:0 auto;
+	position:relative;
+	}
+.ziti2{
+	position:absolute;
+	left:280px;
+	top:108px;
+	}
+.erweima1{
+	position:absolute;
+	left:695px;
+	top:82px;
+	}
+.erweima2{
+	position:absolute;
+	left:910px;
+	top:82px;
+	}
+#contact{
+	width:840px;
+	margin:0 auto;
+	padding:0 180px 0;
+	}
+.contact-title{
+	background:url(images/BIAOTI_13.jpg) no-repeat center 40px;
+	margin-bottom:146px;
+	}		
+.three-ways{
+	height:38px;
+	padding-bottom:70px;
+	}
+.three-ways>div{
+	float:left;width:220px;height:38px;padding-left:50px;
+	}
+.phone{
+	background:url(images/images/contact_03.png) no-repeat left top;
+	}
+.address{
+	background:url(images/images/contact_05.png) no-repeat left top;
+	}
+.email{
+	background:url(images/images/contact_07.png) no-repeat left top;
+	}
+.three-ways .top{
+	font-family:arial;
+	font-size:14px;
+	color:#767676;
+	line-height:14px;}
+.three-ways .bottom{
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#767676;
+	line-height:12px;
+	padding-top:16px;}
+.biaodan{
+	height:150px;
+	width:816px;
+	margin:0 auto;
+	}
+.biaodan-left{
+	width:402px;
+	float:left;
+	}
+.biaodan-right{
+	width:402px;
+	float:right;
+	}
+.biaodan-left input{
+	height:50px;
+	width:400px;
+	border:1px solid #d2d2d2;
+	margin-bottom:21px;
+	}
+.biaodan-right textarea{
+	width:400px;
+	height:123px;
+	border:1px solid #d2d2d2;
+	}
+.submit{height:30px;width:816px;margin:0 auto 80px;}
+.submit p{
+	padding-left:21px;
+	background:url(images/contact-submit_101.jpg) no-repeat left top;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#a3a3a7;
+	line-height:21px;
+}
+.tips{float:left;}
+.submit-right{
+	float:right;
+	height:32px;
+	width:88px;
+	background-color:#141412;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#fff;
+	line-height:32px;
+	text-align:center;
+	}
+
+
+
+
+
+
+
+
+
+</style>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.eavesdrop.min.js"></script>
+</head>
+
+<body>
+<div id="nav" data-active="0">
+<ul>
+<li class="active"><a href="#index" style="color: rgb(255, 255, 255);">首页</a></li>
+<li class=""><a href="#about-design" style="color: rgb(255, 255, 255);">关于设计</a></li>
+<li class=""><a href="#about-me" style="color: rgb(255, 255, 255);">关于我</a></li>
+<li class=""><a href="#works" style="color: rgb(255, 255, 255);">作品</a></li>
+<li class="lian"><a href="#contact" style="color: rgb(211, 135, 36);">联系</a></li>
+</ul>
+
+
+</div>
+<div id="index" class="full eavesdrop" data-connect="index">
+<h1>JULIE</h1>
+<p>细节偏执&amp;创意设计 </p>
+<a href="#" id="welocom">WELCOM</a>
+</div>
+<div id="about-design" class="full eavesdrop" data-connect="about-design">
+<div class="about-design-inner">
+<div class="about-design-title"><h2>关于设计</h2></div>
+<div class="about-design-icons">
+<ul>
+<li><a class="brand" id="brand">商标设计</a></li>
+<li><a class="pingmian" id="pingmian">平面设计</a></li>
+<li><a class="web" id="web">web设计</a></li>
+<li><a class="app" id="app">手机端设计</a></li>
+</ul>
+</div>
+<div class="about-design-text" id="about-design-text">
+<p id="table1">“浓缩”的设计艺术——商标设计。其“说明”之于公司十分重要。好的商标，<br>
+不但要准确无误、言简意赅地表现公司企业形象及经营理念，<br>
+也要符合行业特质、设计术语、美学等方面更要使客户和读者很快认识标徽并产生共鸣。</p>
+<p id="table2">平面设计是科技与艺术的结合，是商业社会的产物，<br>
+在商业社会中需要艺术设计与创作理想的平衡，需要客观与克制，需要借作者之口替委托人说话。<br>
+只有不断通过深入的感受和体验才能做到，打动别人对于设计师来说是一种挑战</p>
+<p id="table3">网页设计（web design，又称为Web UI design，WUI design，WUI），是<br>
+根据企业希望向浏览者传递的信息（包括产品、服务、理念、文化），进行网站功能策划，然后进
+<br>行的页面设计美化工作。作为企业对外宣传物料的其中一种，精美的网页设计，对于提升企业的
+<br>互联网品牌形象至关重要。不但要准确无误、言简意赅地表现公司企业形象及经营理念</p>
+<p id="table4">App是指运行在智能手机、平板电脑等移动终端设备上的第三方应用程序，<br>
+App设计就是为这些移动终端设计第三方应用程序，通常有iOS App、android App、Windows Phone App等。</p>
+</div>
+</div>
+</div>
+
+<div id="heisedai">
+<div class="heisedai-inner">
+<img src="images/heise-computer_20.jpg" class="computer">
+<img src="images/heisedai-ziti_26.jpg" class="ziti">
+<a href="#contact" class="heisedai-contact-a"><img src="images/heisedai-contact_30.jpg" class="heisedai-contact"></a>
+</div>
+</div>
+
+<div id="about-me" class="full eavesdrop" data-connect="about-me">
+<div class="about-me-title"><h2>关于我</h2></div>
+<div class="skills">
+<div class="border">
+<p>设计不只是技能，却缺他不可。</p>
+<ul>
+<li><img src="images/skills-icons_47.jpg"></li>
+<li><img src="images/skills-icons_40.jpg"></li>
+<li><img src="images/skills-icons_43.jpg"></li>
+<li><img src="images/skills-icons_45.jpg"></li>
+<li><img src="images/skills-icons_49.jpg"></li>
+<li class="last-icon"><img src="images/skills-icons_51.jpg"></li>
+</ul>
+</div>
+</div>
+<div class="life">
+<p>&nbsp;&nbsp;设计不只是工作，也是生活。</p>
+<ul id="ul_li">
+	<li class="sports all_li">
+		<!-- <img class="one_img" src="images/life-pic_60.jpg"/> -->
+		<div class="sports-mask all_p">
+		<!-- <img class="ccc" src="images/life-mask_60.jpg"/> -->
+		<br><br><br><br>
+			<p>每天至少一小时，</p>
+			<p>做灵魂的清洁工，</p>
+			<p>扫去不安，烦躁，</p>
+			<p>及一切晦暗阴霾。</p>
+		</div>
+		<p>SPORTS</p>
+	</li>
+	<li class="reading all_li">
+		<!-- <img class="one_img" src="images/life-pic_60.jpg"/> -->
+		<div class="reading-mask all_p">
+		<!-- <img class="ccc" src="images/life-mask_60.jpg"/> -->
+		<br><br><br><br>
+			<p>每周至少两本书</p>
+			<p>或插画小说</p>
+			<p>或政治军事</p>
+			<p>或童话故事</p>
+			<p>或现实金融</p>
+			<p>随心而读</p>
+		</div>
+		<p>READING</p>
+
+	</li>
+	<li class="creative all_li">
+		<!-- <img class="one_img" src="images/life-pic_60.jpg"/> -->
+		<div class="creative-mask all_p">
+		<!-- <img class="ccc" src="images/life-mask_60.jpg"/> -->
+		<br><br><br><br>
+			<p>保有对一切</p>
+				<p>好玩有趣事物的好奇心</p>
+				<p>和创造力</p>
+				<p>去发现、探索、尝试</p>
+			
+		</div>
+		<p>CREATIVE</p>
+	</li>
+</ul>
+
+</div>
+<p>身体和灵魂至少一个在路上，愿工作时严谨如科学，休闲时简单如孩童，保有一颗独处的心可成长和蜕变，<br>
+也有一种不变的信仰，去相信世界相信身旁。<br>
+设计于我不仅仅是工作，更是一种态度，一种生活方式。
+</p>
+
+</div>
+
+<div id="works" class="full eavesdrop" data-connect="works">
+<div class="works-title"><h2>作品</h2></div>
+<div class="box">
+	<div class="small-nav">
+	<ul>
+		<li><a class="active" id="tb">图标</a></li>
+		<li><a class="PINGMIAN" id="pm">平面</a></li>
+		<li><a class="WEB" id="wy">WEB</a></li>
+		<li><a class="APP" id="sj">APP</a></li>
+	</ul>
+	
+	</div>
+	<!--<div class="pic" id="pic">
+	<div id="demo">
+	<ul id="demo1">
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>        
+	</ul>
+	<ul id="demo2">
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>
+		<li><img src="images/works-pic_64.jpg"/></li>        
+	</ul>
+	
+	</div>
+	<div class="yuandian"></div>
+</div>-->
+	<div class="ss" id="ss">
+    <div class="layer">
+    	<div class="zgf">
+        	<img src="images/icons/zhongguofeng.jpg" class="big-img">
+        </div>
+<!--    	<span class="bt lt">&lt;</span>
+        <span class="bt rt">&gt;</span>-->
+        <a class="close">×</a>
+    </div>
+	<div class="menu" id="mm" style="left: -1757px;">
+    	<div class="gd1" id="gd1">
+      	<img src="images/icons/zhong_03.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhong_05.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhong_07.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhong_09.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhongguofeng_05.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhongguofeng_06.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhongguofeng_11.png " max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/images/zhongguofeng_01_03.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/images/zhongguofeng_01_10.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/images/zhongguofeng_01_12.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/images/zhongguofeng_01_18.png" max-src="images/icons/zhongguofeng.jpg">
+          </div>
+        <div class="gd1" id="gd2">
+      	<img src="images/icons/zhong_03.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhong_05.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhong_07.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhong_09.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhongguofeng_05.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhongguofeng_06.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/zhongguofeng_11.png " max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/images/zhongguofeng_01_03.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/images/zhongguofeng_01_10.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/images/zhongguofeng_01_12.png" max-src="images/icons/zhongguofeng.jpg">
+        <img src="images/icons/images/zhongguofeng_01_18.png" max-src="images/icons/zhongguofeng.jpg">
+          </div>     
+    </div>
+    </div>
+    <div class="ss" id="sss">
+    <div class="layer">
+    	<div class="zgf">
+        	<img src="images/web/和芳苑—GUI .JPG" class="big-img">
+        </div>
+    	<!--<span class="bt lt">&lt;</span>
+        <span class="bt rt">&gt;</span>-->
+        <a class="close">×</a>
+    </div>
+     <div class="menu" id="mmm" style="left: 1200px;">
+        <div class="gd1" id="gdd1">
+        <img src="images/pingmian/汽车全屏.jpg" max-src="images/pingmian/汽车全屏.jpg">
+        <img src="images/pingmian/香影女装全屏展示.jpg" max-src="images/pingmian/香影女装全屏展示.jpg">
+ 
+        </div>
+         <div class="gd1" id="gdd2">
+        <img src="images/pingmian/汽车全屏.jpg" max-src="images/pingmian/汽车全屏.jpg">
+        <img src="images/pingmian/香影女装全屏展示.jpg" max-src="images/pingmian/香影女装全屏展示.jpg">
+ 
+        </div>     
+    </div>
+    </div>
+    <div class="ss" id="ssss">
+    <div class="layer">
+    	<div class="zgf">
+        	<img src="images/web/和芳苑—GUI .JPG" class="big-img">
+        </div>
+    	<!--<span class="bt lt">&lt;</span>
+        <span class="bt rt">&gt;</span>-->
+        <a class="close">×</a>
+    </div>
+     <div class="menu" id="mmmm" style="left: 1200px;">
+        <div class="gd1" id="gddd1">
+        <img src="images/icons/WEB—1首页.png" max-src="images/web/和芳苑—GUI .JPG">
+        <img src="images/web/eyusmall.jpg" max-src="images/web/eyu_web.jpg">
+        <img src="images/icons/web3.png" max-src="images/web/zhuantiye.jpg">
+        <img src="images/web/文艺small.jpg" max-src="images/web/文艺.jpg">
+        <img src="images/web/images/wangye_01.png" max-src="images/web/images/wangye_01.png">
+        </div>
+        <div class="gd1" id="gddd2">
+        <img src="images/icons/WEB—1首页.png" max-src="images/web/和芳苑—GUI .JPG">
+        <img src="images/web/eyusmall.jpg" max-src="images/web/eyu_web.jpg">
+        <img src="images/icons/web3.png" max-src="images/web/zhuantiye.jpg">
+        <img src="images/web/文艺small.jpg" max-src="images/web/文艺.jpg">
+        <img src="images/web/images/wangye_01.png" max-src="images/web/images/wangye_01.png">
+        </div> 
+    </div>
+    </div>
+     <div class="ss" id="sssss">
+     <div class="layer">
+    	<div class="zgf">
+        	<img src="images/shouji/手机端—产品.jpg" class="big-img">
+        </div>
+    	<!--<span class="bt lt">&lt;</span>
+        <span class="bt rt">&gt;</span>-->
+        <a class="close">×</a>
+    </div>
+     <div class="menu" id="mmmmm" style="left: 1200px;">
+        <div class="gd1" id="gdddd1">
+        <img src="images/shouji/images/手机端—产品_01.png" max-src="images/shouji/手机端—产品.jpg">
+        <img src="images/shouji/images/手机端—介绍_02.png" max-src="images/shouji/手机端—介绍.jpg">
+        <img src="images/shouji/images/手机端-首页_01.png" max-src="images/shouji/手机端-首页.jpg">
+        <img src="images/shouji/images/手机端-公司简介_02.png" max-src="images/shouji/手机端-公司简介.jpg">
+        <img src="images/shouji/1.0冷启动页.jpg" max-src="images/shouji/1.0冷启动页.jpg">
+        <img src="images/shouji/4.2.0时光城【绘本】详情.jpg" max-src="images/shouji/4.0.0时光城.jpg">
+        <img src="images/shouji/时光胶囊[输入密码].jpg" max-src="images/shouji/时光胶囊[输入密码].jpg">
+        </div>
+        <div class="gd1" id="gdddd2">
+        <img src="images/shouji/images/手机端—产品_01.png" max-src="images/shouji/手机端—产品.jpg">
+        <img src="images/shouji/images/手机端—介绍_02.png" max-src="images/shouji/手机端—介绍.jpg">
+        <img src="images/shouji/images/手机端-首页_01.png" max-src="images/shouji/手机端-首页.jpg">
+        <img src="images/shouji/images/手机端-公司简介_02.png" max-src="images/shouji/手机端-公司简介.jpg">
+        <img src="images/shouji/1.0冷启动页.jpg" max-src="images/shouji/1.0冷启动页.jpg">
+        <img src="images/shouji/4.2.0时光城【绘本】详情.jpg" max-src="images/shouji/4.0.0时光城.jpg">
+        <img src="images/shouji/时光胶囊[输入密码].jpg" max-src="images/shouji/时光胶囊[输入密码].jpg">
+        </div> 
+    </div>
+    </div>
+</div>
+</div>
+
+<div id="heisedai2">
+<div class="heisedai2-inner">
+<img src="images/WECHAT1.jpg" class="erweima1">
+<img src="images/qq1.jpg" class="erweima2">
+<img src="images/heisedai2-ziti_72.jpg" class="ziti2">
+</div>
+
+</div>
+<div id="contact" class="full eavesdrop" data-connect="contact">
+	<div class="contact-title"><h2>联系</h2></div>
+	<div class="three-ways">
+		<div class="phone">
+			<p class="top">Phone</p>
+			<p class="bottom">18819292350</p>
+		</div>
+		<div class="email">
+			<p class="top">Email</p>
+			<p class="bottom">3480740488@qq.com</p>
+		</div>
+        <div class="address">
+			<p class="top">Adress</p>
+			<p class="bottom">深圳南山区西丽</p>
+		</div>
+	
+	</div>
+	<form action="#" method="post" onsubmit="javascript:alert('感谢您的留言')">
+	<div class="biaodan">
+		<div class="biaodan-left">
+		<input type="text" placeholder="姓名">
+		<input type="text" placeholder="邮件主题">
+		</div>
+		<div class="biaodan-right">
+		<textarea placeholder="如果您对我的作品感兴趣，请留言联系我"></textarea>
+		</div>
+	</div>
+	<div class="submit">
+		<p class="tips">所有邮件将被发送至JULIE的邮箱</p>
+		<input type="submit" class="submit-right" value="提交">
+	</div>
+	</form>
+
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+      		$('#nav').eavesdrop();
+      	});
+		
+	$(document).ready(function(){
+		//黑色带点击contact快捷到contact区域
+		$('.heisedai-contact-a').click(function(){
+			$('#nav ul li a').css('color','#fff')
+			$('.lian a').css('color','#d38724')
+		})
+		//关于设计点击不同区域对应不同文本
+		$('#brand').click(function(){
+			$('.about-design-text>p').hide()
+			$('#table1').show();	
+		})
+		$('#pingmian').click(function(){
+			$('.about-design-text>p').hide()
+			$('#table2').show();	
+		})
+		$('#web').click(function(){
+			$('.about-design-text>p').hide()
+			$('#table3').show();	
+		})
+		$('#app').click(function(){
+			$('.about-design-text>p').hide()
+			$('#table4').show();	
+		})
+		//黑色带点击跳转到contact
+			$('.heisedai-contact').click(function(){
+				$('.heisedai-contact-a').attr('href')
+			
+			})	
+		//我的作品中点击分别显示对应作品	
+			$('.small-nav a').click(function(){
+				$('.small-nav a').removeClass('active')
+				$(this).addClass('active')
+				})
+			$('.small-nav #tb').click(function(){
+				$('.ss').hide();
+				$('#ss').show();
+				iconhanshu();
+			})
+			$('.small-nav #pm').click(function(){	
+				$('.ss').hide();
+				$('#sss').show();
+				pingmian();
+			})
+			$('.small-nav #wy').click(function(){	
+				$('.ss').hide();
+				$('#ssss').show();
+				wangye();
+			})	
+			$('.small-nav #sj').click(function(){	
+				$('.ss').hide();
+				$('#sssss').show();
+				app_xm();
+			})		
+	})
+
+
+
+            ss=document.getElementById("ss");
+			mm=document.getElementById("mm");
+			gd1=document.getElementById("gd1");
+			gd2=document.getElementById("gd2");
+			gd2.innerHTML=gd1.innerHTML;
+			ft=setInterval(aa,1);
+            sss=document.getElementById("sss");
+			mmm=document.getElementById("mmm");
+			gdd1=document.getElementById("gdd1");
+			gdd2=document.getElementById("gdd2");
+			gdd2.innerHTML=gdd1.innerHTML;
+			ftt=setInterval(aaa,1);
+            ssss=document.getElementById("ssss");
+			mmmm=document.getElementById("mmmm");
+			gddd1=document.getElementById("gddd1");
+			gddd2=document.getElementById("gddd2");
+			gddd2.innerHTML=gddd1.innerHTML;
+			fttt=setInterval(aaaa,0.5);
+			sssss=document.getElementById("sssss");			
+			mmmmm=document.getElementById("mmmmm");
+			gdddd1=document.getElementById("gdddd1");
+			gdddd2=document.getElementById("gdddd2");
+			gdddd2.innerHTML=gdddd1.innerHTML;
+			ftttt=setInterval(aaaaa,1);
+		
+       i=0;ii=0;iii=0;iiii=0;
+	function iconhanshu(){
+            i=0;
+			ss.style.display="block";		
+	}
+	   mm.onmouseover=function(){clearInterval(ft);	}
+	   mm.onmouseout=function(){ft=setInterval(aa,1);	}	
+	function aa(){
+			i--;
+			if(-i>=gd1.offsetWidth+gd2.offsetWidth-1200){
+				i=1200-gd1.offsetWidth;
+			}
+			mm.style.left=i+"px";
+		}
+		
+
+	function pingmian(){
+		    ii=0;
+			sss.style.display="block";		    
+		}
+       mmm.onmouseover=function(){clearInterval(ftt);	}
+	   mmm.onmouseout=function(){ftt=setInterval(aaa,1);	}
+	function aaa(){
+			ii--;
+			if(-ii>=gdd1.offsetWidth+gdd2.offsetWidth-1200){
+				ii=1200-gdd1.offsetWidth;
+			}
+			mmm.style.left=ii+"px";
+		}
+
+    
+	     
+		
+	function wangye(){
+			iii=0;
+			ssss.style.display="block";   
+		}
+	   mmmm.onmouseover=function(){clearInterval(fttt);	}
+	   mmmm.onmouseout=function(){fttt=setInterval(aaaa,0.5);	}
+	function aaaa(){
+			 iii--;
+			if(-iii>=gddd1.offsetWidth+gddd2.offsetWidth-1200){
+				iii=1200-gddd1.offsetWidth;
+			}
+			mmmm.style.left=iii+"px";
+		}
+
+	
+       function app_xm(){	
+	     iiii=0;
+		 sssss.style.display="block";
+
+		}
+    	mmmmm.onmouseover=function(){clearInterval(ftttt);	}
+	    mmmmm.onmouseout=function(){ftttt=setInterval(aaaaa,1);	}
+
+		function aaaaa(){
+			 iiii--;
+			if(-iiii>=gdddd1.offsetWidth+gdddd2.offsetWidth-1200){
+				iiii=1200-gdddd1.offsetWidth;
+			}
+			mmmmm.style.left=iiii+"px";
+		}
+
+		
+	//点击轮播小图 大图片出现屏幕中间   但是：大图很长  为什么不能往下滑动观察大图全部，而是下面的被覆盖页面在向下滑动
+	//$(function(){
+//		$('.zgf').css('top','20px')
+//		$('.lt').css('left','100px');
+//		$('.rt').css('right','100px');
+//		$('.bt').css('top',($(window).height()-$('.bt').height())/2+'vh');
+//		$('#mm img').click(function(){
+//			ch($(this))	
+//		})
+//		$('#mmm img').click(function(){
+//			ch($(this))	
+//		})
+//		$('#mmmm img').click(function(){
+//			ch($(this))	
+//		})
+//		$('#mmmmm img').click(function(){
+//			ch($(this))	
+//		})
+//		$('.close').click(function(){
+//			$('.layer').hide();
+//		});
+//
+//		function ch(e){
+//			var n=e.index();
+//			jj=n;
+//			$('.layer').show();
+//			$('.big-img').attr('src',e.attr('max-src'))
+//		}
+//		function ck(n){
+//			$('.big-img').attr('src',n.eq(n).attr('max-src'))
+//		}
+//	})	
+
+		
+</script>
+
+</body></html>
